@@ -1,0 +1,91 @@
+body {
+  position: absolute;
+  width: 1440px;
+  height: 1000px;
+  left: 0px;
+  background: url(/img/fondo.jpg), #c4c4c4;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+h1{
+  top: 100px;
+  text-align: center;
+}
+
+footer{
+  position: absolute;
+  width: 1312px;
+  height: 84px;
+  left: 57px;
+  top: 890px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+li{
+  text-align: center  ;
+}
+
+.imagen{
+  top: 10px;
+  margin-left: 1100px;
+  position: absolute;
+
+}
+
+.fondotexto1{
+  width: 900px;
+  height: 100px;
+  left: 100px;
+  margin-left: 100px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.contenido1{
+  position: absolute;
+  width: 400px;
+  height: 500px;
+  top: 170px;
+  left: 100px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+
+}
+.contenido2{
+  position: absolute;
+  width: 400px;
+  height: 500px;
+  top: 170px;
+  left: 500px;
+  margin-left: 50px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+
+}
+.contenido3{
+  position: absolute;
+  width: 400px;
+  height: 500px;
+  top: 170px;
+  left: 950px;
+  margin-left: 50px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+
+}
+
+.image1{
+  position: absolute;
+  width: 90px;
+  left: 961px;
+  top: 10px; 
+}
+.image2{
+  position: absolute;
+  width: 80px;
+  left: 1050px;
+  top: 10px; 
+}
+
+
