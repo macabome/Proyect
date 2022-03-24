@@ -1,91 +1,191 @@
-body {
+header{
+  top: 0px;
   position: absolute;
-  width: 1440px;
-  height: 1000px;
+  width: 1300px;
+  height: 500px;
   left: 0px;
-  background: url(/img/fondo.jpg), #c4c4c4;
+  background: #7FB069;
   background-size: cover;
   background-repeat: no-repeat;
-
 }
-h1{
-  top: 100px;
-  text-align: center;
-}
-
 footer{
   position: absolute;
   width: 1312px;
   height: 84px;
-  left: 57px;
-  top: 890px;
-  background: rgba(255, 255, 255, 0.3);
+  left: 0px;
+  top: 1425px;
+  background: #486B38;
 }
 
-li{
-  text-align: center  ;
-}
 
 .imagen{
-  top: 10px;
-  margin-left: 1100px;
+  top: 150px;
+  margin-left: 900px;
   position: absolute;
 
 }
 
 .fondotexto1{
+  margin-top: 100px;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  font-style: bold;
+  text-indent: 0px;
+  font-size: 120px;
+  color: #E6AA68;
   width: 900px;
-  height: 100px;
-  left: 100px;
-  margin-left: 100px;
-  border-radius: 20px;
-  background: rgba(255, 255, 255, 0.3);
-}
-
-.contenido1{
-  position: absolute;
-  width: 400px;
-  height: 500px;
-  top: 170px;
-  left: 100px;
-  background: rgba(255, 255, 255, 0.3);
-  border-radius: 30px;
-
-}
-.contenido2{
-  position: absolute;
-  width: 400px;
-  height: 500px;
-  top: 170px;
-  left: 500px;
-  margin-left: 50px;
-  background: rgba(255, 255, 255, 0.3);
-  border-radius: 30px;
-
-}
-.contenido3{
-  position: absolute;
-  width: 400px;
-  height: 500px;
-  top: 170px;
-  left: 950px;
-  margin-left: 50px;
-  background: rgba(255, 255, 255, 0.3);
-  border-radius: 30px;
+  margin-left: 0px;
 
 }
 
-.image1{
+.content{
   position: absolute;
-  width: 90px;
-  left: 961px;
-  top: 10px; 
+  margin-top: 490px;
+  left: 0px;
+  width: 1300px;
+  font-family: 'Barlow Condensed', sans-serif;
+  text-indent: 800px;
+  font-style: bold;
+  font-size: 70px;
+  background-color: #E5A48A;
 }
-.image2{
+.content1{
   position: absolute;
-  width: 80px;
-  left: 1050px;
-  top: 10px; 
+  margin-top: 790px;
+  left: 0px;
+  width: 1300px;
+  font-family: 'Barlow Condensed', sans-serif;
+  text-indent: 250px;
+  font-style: bold;
+  font-size: 70px;
+  background-color: #9F9FD1;
+}
+.content2{
+  position: absolute;
+  margin-top: 1150px;
+  left: 0px;
+  width: 1300px;
+  height: 270px;
+  font-family: 'Barlow Condensed', sans-serif;
+  text-indent: 800px;
+  font-style: bold;
+  font-size: 70px;
+  background-color: #ECE4B7;
+
+}
+.img1{
+  position: absolute;
+  margin-top: 530px;
+  margin-left: 200px;
+  height: 200px;
+  border-radius: 50px;
+
+}
+
+.img2{
+  position: absolute;
+  margin-top: 880px;
+  margin-left: 700px;
+  height: 200px;
+  border-radius: 50px;
+
+}
+
+.img3{
+  position: absolute;
+  margin-top: 1180px;
+  margin-left: 210px;
+  height: 200px;
+  border-radius: 50px;
+
+}
+
+.img4{
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 1000px;
+  height: 60px;
+  border-radius: 50px;
+
+}
+.img5{
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 1110px;
+  height: 65px;
+  border-radius: 50px;
+
+}
+
+/* Navbar container */
+.navbar {
+  padding-left:  1000px;
+  overflow: hidden;
+  background-color: #486B38;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #A4C794;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: #486B38;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 
