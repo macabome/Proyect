@@ -1,0 +1,202 @@
+header{
+    top: 0px;
+    position: absolute;
+    left: 0px;
+    background-color: #7FB069;
+    height: 45px;
+  }
+  footer{
+    position: absolute;
+    width: 1435px;
+    height: 84px;
+    left: 0px;
+    top: 940px;
+    background: #486B38;
+  }
+  
+  .back{
+    position: absolute;
+    top: 45px;
+    left: 0px;
+    width: 1435px;
+    height: 914px;
+    background: #7FB069;
+  }
+
+  .content1{
+    position: absolute;
+    width: 600px;
+    height: 700px;
+    left: 60px;
+    top: 59px;
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-top: 70px;
+    background: #E6AA68;
+  }
+
+  .img1{
+      position: absolute;
+      height: 30px;
+
+  }
+  .text1{
+      margin-left: 250px;
+  }
+  .estimg{
+      left: 120px;
+      position: relative;
+  }
+  
+  .content2{
+    position: absolute;
+    width: 600px;
+    height: 700px;
+    left: 760px;
+    top: 59px;
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-top: 70px;
+    background: white;
+  }
+
+  .img2{
+      position: absolute;
+      left: 350px;
+      top: 70px;
+
+  }
+  .img3{
+    position: absolute;
+    left: 250px;
+  }
+  .img4{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 1000px;
+    height: 60px;
+    border-radius: 50px;
+  
+  }
+  .img5{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 1110px;
+    height: 65px;
+    border-radius: 50px;
+  
+  }
+  .content3{
+    position: absolute;
+    width: 1200px;
+    height: 700px;
+    left: 90px;
+    top: 100px;
+    border-radius: 20px;
+    padding-left: 70px;
+    padding-top: 40px;
+    background:  #c6d6bf;
+    
+  }
+  .sopaLetras{
+    position: absolute;
+    left: 650px;
+  }
+  .sopaLetras2{
+    left: 0px;
+    margin-left: 200px;
+  }
+  .content4{
+    position: absolute;
+    width: 1200px;
+    height: 700px;
+    left: 90px;
+    top: 100px;
+    border-radius: 20px;
+    padding-left: 70px;
+    padding-top: 40px;
+    background:  #c6d6bf;
+    
+  }
+  .domText{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+  }
+  
+
+  /* Navbar container */
+  .navbar {
+    width: 435px;
+    padding-left:  1000px;
+    overflow: hidden;
+    background-color: #486B38;
+    font-family: Arial;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px; 
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #A4C794;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: #486B38;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  
+  

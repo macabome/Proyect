@@ -1,32 +1,39 @@
 header{
   top: 0px;
   position: absolute;
-  width: 1300px;
-  height: 500px;
   left: 0px;
-  background: #7FB069;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #7FB069;
+  height: 45px;
 }
 footer{
   position: absolute;
-  width: 1312px;
+  width: 1435px;
   height: 84px;
   left: 0px;
-  top: 1425px;
+  top: 1525px;
   background: #486B38;
 }
 
-
-.imagen{
-  top: 150px;
-  margin-left: 900px;
+.fondo1{
   position: absolute;
+  background: #7FB069;
+  width: 1435px;
+  top: 45px;
+  left: 0px;
+  height: 500px;
 
 }
 
-.fondotexto1{
-  margin-top: 100px;
+.imagen{
+  top: 50px;
+  margin-left: 900px;
+  position: absolute;
+  
+
+}
+
+.texto1{
+  margin-top: 60px;
   text-align: center;
   font-family: 'Bebas Neue', cursive;
   font-style: bold;
@@ -41,19 +48,20 @@ footer{
 .content{
   position: absolute;
   margin-top: 490px;
-  left: 0px;
-  width: 1300px;
+  width: 1435px;
+  height: 400px;
   font-family: 'Barlow Condensed', sans-serif;
   text-indent: 800px;
   font-style: bold;
   font-size: 70px;
   background-color: #E5A48A;
+  left: 0px;
 }
 .content1{
   position: absolute;
-  margin-top: 790px;
+  margin-top: 820px;
   left: 0px;
-  width: 1300px;
+  width: 1435px;
   font-family: 'Barlow Condensed', sans-serif;
   text-indent: 250px;
   font-style: bold;
@@ -64,8 +72,8 @@ footer{
   position: absolute;
   margin-top: 1150px;
   left: 0px;
-  width: 1300px;
-  height: 270px;
+  width: 1435px;
+  height: 400px;
   font-family: 'Barlow Condensed', sans-serif;
   text-indent: 800px;
   font-style: bold;
@@ -75,7 +83,7 @@ footer{
 }
 .img1{
   position: absolute;
-  margin-top: 530px;
+  margin-top: 550px;
   margin-left: 200px;
   height: 200px;
   border-radius: 50px;
@@ -84,7 +92,7 @@ footer{
 
 .img2{
   position: absolute;
-  margin-top: 880px;
+  margin-top: 900px;
   margin-left: 700px;
   height: 200px;
   border-radius: 50px;
@@ -93,7 +101,7 @@ footer{
 
 .img3{
   position: absolute;
-  margin-top: 1180px;
+  margin-top: 1220px;
   margin-left: 210px;
   height: 200px;
   border-radius: 50px;
@@ -119,6 +127,7 @@ footer{
 
 /* Navbar container */
 .navbar {
+  width: 435px;
   padding-left:  1000px;
   overflow: hidden;
   background-color: #486B38;

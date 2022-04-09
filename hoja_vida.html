@@ -1,28 +1,54 @@
 <!DOCTYPE html>
-<html>
-    <head>
+<html lang="en">
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,300&display=swap');
+    </style>
+    <link rel="stylesheet" href="/css/style2.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<header>
+    <div class="navbar">
+        <a href="index.html">Inicio</a>
+        <a href="hoja_vida.html">Hoja de vida</a>
+        <div class="dropdown">
+            <button class="dropbtn">Retos 
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="Tareas/sopaLetras.html">Sopa de letras</a>
+                <a href="Tareas/flashcards.html">Flashcards</a>
+            </div> 
+		
+        </div> 
+    </div>
+</header>
+<body>
+    <section class = "back">
 
-    </head>
-    <body>
-        <table>
-            <tr>
-                <td style="padding-left:  50px;">
-                    <img src="img/perfil.JPG" style= "width: 120px; border-radius: 30%">
-                </td>
-                <td  style="padding-left:  50px;">
+            <section class="content1">
+                <article class="img1">
+                    <img src="img/Picture1.png" style="width: 200px;" >
+                </article>
+                <article class="text1">
                     <h1>Mariana Ca&ntilde;as Bonilla</h1>
                     <p>ingenieria informatica</p>
-                    
-                    <div>
-                        <img src="img/llamada-telefonica.png" style="width: 20px;">
-                    </div>
-                    <div>
-                        <p>3046684337</p>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td style="padding-left: 50px;" >
+                    <p>
+                    <img src="img/llamada-telefonica.png" style="width: 20px;">
+                    3046684337</p>
+                    <p>
+                        <img src="img/icon-email.png" style="width: 20px;">
+                        macabomes&#64;gmail.com
+                    </p>
+                </article>
+                <hr style="color: black; margin-top: 130px;">
+                <article> 
                     <h2>Estudios</h2>
                     <p>
                         <strong>Normal Superior de envigado</strong>  <br>
@@ -31,17 +57,62 @@
                         <strong>Instituci&oacute;n universitaria de envigado</strong> <br>
                         Ingenieria informatica<br>
                     </p>
-                </td>
-    
-            </tr>
-        <section>
-            <article>
-                <button>
-                    <a href="portafolio.html"> Portafolio</a>
-                </button>
-            </article>
-        </section>
-    
-        </table>
-    </body>
+                </article>
+
+                <article class="estimg">
+                    <img src="img/iue-logo.png" style="width: 150px;">
+                    <img src="img/normal-logo.png" style="margin-left: 50px; width: 150px;">
+                </article>
+                
+            </section>
+            <section class="content2">
+                <article class="img2">
+                    <img src="img/work.png" style="width: 150px">
+                </article>
+                <article>
+                    <h2>Experiencia laboral</h2>
+                    <p>
+                        <strong>Wordpress freelance</strong> <br>
+                        emin.com.co <br>
+                        <strong>Html mail builder</strong> <br>
+                        emin.com.co <br>
+                        <strong> AWS cloud administrator</strong> <br>
+                        Trainme
+
+                    </p>
+                </article>
+                <hr style="margin-top: 110px;">
+                <article class="img3">
+                    <img src="img/conocimiento.png">
+                </article>
+                <article>
+                    <h2>Habilidades</h2>
+                    <p>
+                        Java <br>
+                        AWS <br>
+                        Python <br>
+                        Django <br>
+                        Html <br>
+                        Bases de Datos <br>
+                        Linux <br>
+                        Kali linux <br>
+                        Wordpress <br>
+                        Nginx <br>
+                        Docker <br>
+                    </p>
+
+                </article>
+            </section>
+    </section>
+</body>
+<footer>
+    <section>
+        <a href="https://github.com/macabome/Proyect" target="_blank">
+            <img class="img4" src="/img/gilab-logo.png">
+        </a>
+        <a href="https://mcanas.neocities.org" target="_blank">
+            <img class="img5" src="/img/cat.png">
+        </a>
+    </section>
+</footer>
 </html>
